@@ -3,6 +3,20 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 1.0.3</title>
+      <description><![CDATA[**RavanSpeak 1.0.3**
+
+- **Fixed subtitle timing edits.** Editing a line's start/end time now takes effect when you click away — previously it only saved if you pressed Return, so timing changes seemed to do nothing.
+- **Model management.** A new Settings ▸ "Models & API keys" page shows which transcription/translation models are downloaded (with sizes), and lets you download or delete them and set your OpenAI key. The Transcribe dialog now marks each model as downloaded or not.
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Mon, 22 Jun 2026 16:39:34 -0400</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v1.0.3/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="4LR8ErtXvCI50C+sFTUp5Iy+PYUZK+WLasznWFUhZlAA5N2q9aMHQEIZyWinvWpfwWbHC8N3dcQkV/vHtYf/DA==" length="8567825" />
+    </item>
+    <item>
       <title>Version 1.0.2</title>
       <description><![CDATA[**RavanSpeak 1.0.2**
 
