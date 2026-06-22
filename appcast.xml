@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>RavanSpeak</title>
+    <item>
+      <title>Version 1.0.2</title>
+      <description><![CDATA[**RavanSpeak 1.0.2**
+
+New
+- **Reader** — paste or import English/Farsi text for an interactive, word-by-word study guide: toggle Farsi / transliteration / English, hide-and-reveal practice, spoken pronunciation, saved vocab, and HTML export.
+- **In-app auto-update** — RavanSpeak now checks for new versions and installs them itself. (This is the first version with auto-update; future updates won't need a manual download.)
+- Subtitle **import** (load an existing .srt/.vtt and edit it) and adjustable **playback speed**.
+
+Fixes & accuracy
+- Fixed whole stretches of video coming back with no subtitles — transcription now covers the full audio instead of skipping quiet or music-covered speech.
+- Tighter, word-aligned subtitle timing.
+- Manual subtitle edits and added lines now reliably save and export.
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Mon, 22 Jun 2026 10:17:01 -0400</pubDate>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v1.0.2/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="HmNAlJxdtH7scd0uUrqMlVD0cdiJo2JpizAc9qxWRvH1vxDFI7cQ+yvbscnDRNv70E00QhEbYI1bdu/YDr0IAw==" length="8513124" />
+    </item>
+  </channel>
+</rss>
