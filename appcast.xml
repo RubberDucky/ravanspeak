@@ -3,6 +3,22 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 1.0.5</title>
+      <description><![CDATA[**RavanSpeak 1.0.5**
+
+- **Interactive study guides.** The Reader's HTML export is now an interactive flip-card page: tap any word to flip it and reveal the transliteration, with Flip-all/Reset and 🔊 sentence playback. Works offline on your phone. In the app, word tiles are now tappable too.
+- **Export video with subtitles.** New Export → "Video with subtitles (.mp4)…" burns your subtitles (and dual-language overlay) into a shareable video you can AirDrop and watch in Photos.
+- **OpenAI key:** added a Save button and a reveal (show/hide) toggle.
+- **Better transliteration:** learner-friendly, consistent spelling (salaam, mikhaam) across subtitles and the Reader.
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Mon, 22 Jun 2026 23:51:25 -0400</pubDate>
+      <sparkle:version>6</sparkle:version>
+      <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v1.0.5/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="Vq/CqkfnkqNmIneR7B1JNvLfnS1B5eq6iYTM+JGgXXC+2CwDDT1kS9pvOl4tXAkG5KL88FXEVKO5lJsDUf3KDw==" length="8700708" />
+    </item>
+    <item>
       <title>Version 1.0.4</title>
       <description><![CDATA[**RavanSpeak 1.0.4**
 
