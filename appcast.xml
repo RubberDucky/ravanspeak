@@ -3,6 +3,19 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 1.0.8</title>
+      <description><![CDATA[**RavanSpeak 1.0.8**
+
+- **Gemini API engine.** You can now choose **Gemini** (alongside OpenAI and on-device) for translation and transliteration — it's excellent at producing accurate Finglish/translations from your edited Persian text. Add your key in Settings ▸ Models & API keys (get one free at aistudio.google.com).
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Wed, 24 Jun 2026 14:57:24 -0400</pubDate>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>1.0.8</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v1.0.8/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="DYPFKApcTFewPXPE3gkFJ9UndWTw9FUtj736tGFMKP0Ixx25w5JLJYX383ERJ8tE6yyZym6Tk1Xat/OaJSdfBQ==" length="8750278" />
+    </item>
+    <item>
       <title>Version 1.0.7</title>
       <description><![CDATA[**RavanSpeak 1.0.7**
 
