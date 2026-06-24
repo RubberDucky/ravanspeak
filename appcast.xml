@@ -3,6 +3,22 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 1.0.9</title>
+      <description><![CDATA[**RavanSpeak 1.0.9**
+
+- **Much better on-device translation & transliteration.** The free on-device engine now uses a stronger model (Qwen 7B) and processes each line with the surrounding context plus examples, so Finglish and translations are noticeably more accurate and consistent. Transliteration output is also auto-normalized to a consistent spelling (aa/ee/oo, kh/gh).
+- Removed the unreliable **Tiny/Small** transcription models — only **Large-v3** and **Turbo** remain.
+
+Note: the on-device translator now downloads a larger (~4.5 GB) model on first use. For the very best phonetics you can still use the OpenAI or Gemini engines, or import an externally-made track.
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Wed, 24 Jun 2026 15:12:33 -0400</pubDate>
+      <sparkle:version>10</sparkle:version>
+      <sparkle:shortVersionString>1.0.9</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v1.0.9/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="s7Awa47Wf9skGwuf0xE4YHoU62u5v9NX6aGycB435lHCrZgFIoXFDQHH+Zn0i4ZE1Pu8Cin7bTuojWnzHDu3Dw==" length="8757236" />
+    </item>
+    <item>
       <title>Version 1.0.8</title>
       <description><![CDATA[**RavanSpeak 1.0.8**
 
