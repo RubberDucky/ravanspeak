@@ -3,6 +3,23 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 1.0.6</title>
+      <description><![CDATA[**RavanSpeak 1.0.6**
+
+- **Re-transcribe just a section.** Watching and spot a bad or missing stretch? Re-transcribe → "a section…", pick a range (presets for 30s / 1 min / 2 min / to playhead), and only those lines are redone — no need to redo the whole video.
+- **Relink moved videos.** If a video file moves or gets renamed, the editor shows a "Locate video…" button (and the Library has "Locate moved video…"). Your subtitles are kept.
+- **Resume where you left off.** Each video remembers your playback position and picks up there next time.
+- **Screen stays awake while watching** (including full screen) so the Mac doesn't sleep mid-video.
+- Skip buttons are now **15 seconds** (were 5).
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Tue, 23 Jun 2026 22:34:58 -0400</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v1.0.6/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="du0S6oOje4GmuCjjrawoWsOjoFVTXzPL52cX00bzVt0A0egIhoMFa/PuAlYYJ10SlZGe54+2xtLcYOs0IN9dCg==" length="8736011" />
+    </item>
+    <item>
       <title>Version 1.0.5</title>
       <description><![CDATA[**RavanSpeak 1.0.5**
 
