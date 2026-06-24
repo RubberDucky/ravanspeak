@@ -3,6 +3,19 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 1.0.10</title>
+      <description><![CDATA[**RavanSpeak 1.0.10**
+
+- **Fixed slow on-device translation/transliteration.** 1.0.9 made it far too slow and heavy on the machine. It's now back to fast batched processing, and the model is your choice: **Fast (Qwen 3B)** by default — quick and light — with **Best (Qwen 7B)** available in Settings ▸ Models & API keys if you want maximum accuracy and don't mind it being slower. The improved spelling consistency is kept either way. (For the fastest, most accurate results, the OpenAI/Gemini engines are still recommended.)
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Wed, 24 Jun 2026 16:26:48 -0400</pubDate>
+      <sparkle:version>11</sparkle:version>
+      <sparkle:shortVersionString>1.0.10</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v1.0.10/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="Ibc6C8zohvW5wEKHvt2l88bAfsTSUHsOweCEBD1Hcu3UHMW1lcKKAZihYUJ2eEZuzcl6VvMvU1bm6pPlEOkKCQ==" length="8756328" />
+    </item>
+    <item>
       <title>Version 1.0.9</title>
       <description><![CDATA[**RavanSpeak 1.0.9**
 
