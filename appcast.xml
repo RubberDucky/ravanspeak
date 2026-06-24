@@ -3,6 +3,21 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 1.0.7</title>
+      <description><![CDATA[**RavanSpeak 1.0.7**
+
+- **Editing subtitle times now works reliably.** Typing a new start/end time applies even on a just-added line (it commits a moment after you stop typing, not only on Return). The list also no longer scrolls away while you're paused and editing.
+- **Import a subtitle file as a *second* track.** Made a transliteration (Finglish) or translation elsewhere from your corrected Persian? Import → "Add as a new track" keeps your existing subtitles and adds the imported one alongside, matched to your timings — so you can show both at once (Overlay) and export each. (Previously importing replaced your subtitles.)
+- Clarified that in-app translation/transliteration is generated from your **edited subtitle text**, not the audio — and that OpenAI gives the best phonetics.
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Wed, 24 Jun 2026 14:40:56 -0400</pubDate>
+      <sparkle:version>8</sparkle:version>
+      <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v1.0.7/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="beIHCilcNdAZkL6yYw0IWY04BTGEdb7v2xvhSLTLN33WsO3Njiafqf1ydnmVTr9eaUjJmDD6q0mY/nEiOLWfBQ==" length="8746923" />
+    </item>
+    <item>
       <title>Version 1.0.6</title>
       <description><![CDATA[**RavanSpeak 1.0.6**
 
