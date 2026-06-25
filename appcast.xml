@@ -3,6 +3,26 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 1.0.12</title>
+      <description><![CDATA[**RavanSpeak 1.0.12**
+
+Library & playback upgrades:
+
+- **Bulk upload** — drop or pick a whole series at once; every file is added (a single file still opens straight in the editor).
+- **Multi-select** — hit **Select**, tick the videos you want, then run an action on all of them: **Transcribe & translate**, **Export**, **Move to folder**, or **Delete**.
+- **Drag to organize** — drag a video onto a folder to move it (or onto **All** to send it back to the top level).
+- **Sort** the library by **Name**, **Date added**, or **File size**.
+- **Space bar** plays / pauses the video (it still types a space normally when you're editing subtitle text).
+- **Zoom the interface** with **⌘+ / ⌘− / ⌘0** (View menu) — handy for reading Farsi at a larger size.
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Thu, 25 Jun 2026 11:13:30 -0400</pubDate>
+      <sparkle:version>13</sparkle:version>
+      <sparkle:shortVersionString>1.0.12</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v1.0.12/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="VzxSeCr+ciOELLafVPjoazjvFKP83wNRKIUiADpmsOFHjs++tgk/xXrZ7xzAgbrQvqmn6Rbx+3sRcRIM3vb5Cw==" length="8825291" />
+    </item>
+    <item>
       <title>Version 1.0.11</title>
       <description><![CDATA[**RavanSpeak 1.0.11**
 
