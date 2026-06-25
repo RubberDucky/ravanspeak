@@ -3,6 +3,21 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 1.0.13</title>
+      <description><![CDATA[**RavanSpeak 1.0.13**
+
+- **Interface zoom now actually scales** — ⌘+ / ⌘− / ⌘0 (View menu) resize the whole UI. (macOS ignores Dynamic Type, so 1.0.12's zoom did nothing; this scales the view hierarchy directly.)
+- **Drag moves the whole selection** — when you drag one of several selected videos into a folder, all selected ones move (previously only the dragged one did).
+- **Clearer sorting** — the Sort menu now shows a checkmark on the active field and an explicit **A → Z / Z → A** (ascending/descending) choice. Re-pick the active field to flip direction.
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Thu, 25 Jun 2026 11:31:17 -0400</pubDate>
+      <sparkle:version>14</sparkle:version>
+      <sparkle:shortVersionString>1.0.13</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v1.0.13/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="WmB480ACoT/2Dg6QsqROhEZbXIREVyeCUx5T0YNEhbTXdl+FztfKn4W4cDXj4nUj7/XRXAqHDCCZBpJIxafJBA==" length="8825136" />
+    </item>
+    <item>
       <title>Version 1.0.12</title>
       <description><![CDATA[**RavanSpeak 1.0.12**
 
