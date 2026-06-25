@@ -3,6 +3,20 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 1.0.11</title>
+      <description><![CDATA[**RavanSpeak 1.0.11**
+
+- **Plain-text (.txt) export.** Export any subtitle track as a clean transcript (no timecodes) — the editor's Export menu now offers SRT / VTT / TXT.
+- **Bulk export.** In the Library, the **Batch** menu now has **Export subtitles…** — pick many videos, a format, and whether to export all tracks, and save them all to a folder at once.
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Thu, 25 Jun 2026 10:48:36 -0400</pubDate>
+      <sparkle:version>12</sparkle:version>
+      <sparkle:shortVersionString>1.0.11</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v1.0.11/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="YuBC7S900HE8fgcLk787Vj7iIJYDaVjI1HZSlbQi6vdbwzmnjlyxETCB1c0obZux6iL2SNckLHHCcAIhHEISDQ==" length="8779053" />
+    </item>
+    <item>
       <title>Version 1.0.10</title>
       <description><![CDATA[**RavanSpeak 1.0.10**
 
