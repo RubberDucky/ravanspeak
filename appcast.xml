@@ -3,6 +3,22 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 1.0.15</title>
+      <description><![CDATA[**RavanSpeak 1.0.15**
+
+- **Smaller burned-in videos.** Export → *Video with subtitles* now offers **Smaller file (HEVC, recommended)** — re-encodes at the source resolution with HEVC for a much smaller file that looks the same — or **Maximum compatibility (H.264)** for the old, larger, widest-compatibility output. The saved size is shown when it finishes.
+- **Combined two-language subtitle files.** Merge two tracks into one SRT/VTT/TXT — e.g. **Farsi over English** or **English over Farsi transliteration** — and pick which language goes on top, just like the player overlay.
+  - In the **editor**: Export → *Combined two-language file…*
+  - In **bulk export**: tick *Also make a combined two-language file* and choose Top/Bottom.
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Sun, 28 Jun 2026 21:56:21 -0400</pubDate>
+      <sparkle:version>16</sparkle:version>
+      <sparkle:shortVersionString>1.0.15</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v1.0.15/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="/eYxaUQQkS+esObWKb5WsjfjO9nh904fjHsdbsTaSe92tkUfOMwBlT3nzY4dVzIHvS7kMVQP0ICgayFpp6MFCg==" length="8863688" />
+    </item>
+    <item>
       <title>Version 1.0.14</title>
       <description><![CDATA[**RavanSpeak 1.0.14**
 
