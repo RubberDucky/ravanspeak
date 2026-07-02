@@ -3,6 +3,28 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 1.0.16</title>
+      <description><![CDATA[**RavanSpeak 1.0.16 — quality release**
+
+Transcription:
+- **Quiet audio is now boosted before transcription.** Dialogue mixed under music or recorded at a low level transcribes much better — this was the main cause of missing/garbled lines on real-world video.
+
+Translation & transliteration:
+- **Stronger API models by default.** The OpenAI/Gemini engines now use **GPT-4o / Gemini 2.5 Pro** — noticeably more accurate for Persian. The cheaper Fast tier (mini/Flash) is still available in Settings → Models & API keys.
+- **Scene continuity.** Each batch of lines now sees the previous lines' translations, so pronouns, names, and tone stay consistent across the whole video.
+- **Better prompts.** Lines are framed as continuous dialogue with register matching, and the transliteration standard gained more worked examples of spoken forms.
+
+Exports:
+- **.txt files now include timestamps** — each line is `[00:01:23 – 00:01:26] text`.
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Thu, 02 Jul 2026 11:39:15 -0400</pubDate>
+      <sparkle:version>17</sparkle:version>
+      <sparkle:shortVersionString>1.0.16</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v1.0.16/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="3KZxcrsKuvj83lJB+mD3ImvkpWgeAfi/iYrd43wYQN69cGnY5rIph41PsAHdBgTUGbpDwhh6slDHdUr1Woo+Aw==" length="8876849" />
+    </item>
+    <item>
       <title>Version 1.0.15</title>
       <description><![CDATA[**RavanSpeak 1.0.15**
 
