@@ -3,6 +3,21 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 1.0.17</title>
+      <description><![CDATA[**RavanSpeak 1.0.17 — Gemini cloud transcription**
+
+- **New transcription engine: Gemini cloud — the most accurate option for Farsi.** In the Transcribe dialog, switch the engine from *On-device (Whisper)* to *Gemini cloud*. Gemini understands the language, not just the sound, so it handles colloquial speech, names, and dialogue under music noticeably better than Whisper.
+- Opt-in and private by design: only the **audio** is sent to Google (never the video), only when you choose this engine, using your own Gemini API key (Settings ▸ Models & API keys). Uses Gemini 2.5 Pro with the default "Best" quality setting.
+- Note: Gemini's line timings are good but slightly less precise than Whisper's. Time fields remain editable, and section re-transcribe still uses Whisper.
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Thu, 02 Jul 2026 18:28:19 -0400</pubDate>
+      <sparkle:version>18</sparkle:version>
+      <sparkle:shortVersionString>1.0.17</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v1.0.17/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="sz91CXIVTzUjw7VXxxM5MjZXhUvB9OGz7gSqpxYroUJ0JMZnk4n8YduxSC6CzaZlO9H+KhMooIudD/Pzx5LIDQ==" length="8894817" />
+    </item>
+    <item>
       <title>Version 1.0.16</title>
       <description><![CDATA[**RavanSpeak 1.0.16 — quality release**
 
