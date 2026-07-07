@@ -3,6 +3,23 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 1.0.18</title>
+      <description><![CDATA[**RavanSpeak 1.0.18 — Reader editing & card customization**
+
+- **Edit passages.** In the reader, click **Edit** — every word tile shows its Farsi, transliteration, and English stacked and editable (sentence lines too). Fix any mistake from the on-device model; changes auto-save as you type.
+- **Arrange your cards.** New **Cards** button: choose which text is **Top / Middle / Bottom** (top is the big one), and which layer **tapping reveals**.
+- **Light or dark tiles + custom text colors** — applies in the app and in the **HTML export**.
+- **Live example.** The New passage page (and the Cards panel) shows a sample card — front and tapped — that updates as you change the options.
+- **Flip all** — flip every card at once to see the backs; click again to flip back.
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Mon, 06 Jul 2026 21:24:32 -0700</pubDate>
+      <sparkle:version>19</sparkle:version>
+      <sparkle:shortVersionString>1.0.18</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v1.0.18/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="JUmQnB1nSp5I1Gmhado4LfrBt31rmaZtV+MwCy80nYxfMkHf56BugMK/p+SPzOFy4KVDa+TuyFwHiNr09PZSDw==" length="8961838" />
+    </item>
+    <item>
       <title>Version 1.0.17</title>
       <description><![CDATA[**RavanSpeak 1.0.17 — Gemini cloud transcription**
 
