@@ -3,6 +3,22 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 1.0.31</title>
+      <description><![CDATA[**RavanSpeak 1.0.31 — resilient translation, resume, minimize to Queue**
+
+- **Interrupted translations resume instead of restarting.** Overloaded-API errors (like Gemini's 503 "high demand") now retry automatically with growing waits; if a run still stops partway, the finished lines are SAVED and running Translate again continues from where it stopped — in the editor and in batch jobs. Cancelling also keeps the finished lines.
+- **Gemini translation always uses the newest Flash** — fast, inexpensive, and excellent for Persian. (The Pro tier was slow, pricey, and frequently overloaded; the Best/Fast setting now applies to OpenAI only.)
+- **Minimize running jobs.** Transcription/translation dialogs now have a **Minimize** button — the job keeps running and appears in the **Queue** with live progress, cost, and a cancel button. Reopening the dialog shows the in-flight job.
+- Clearer API error messages (the human-readable text instead of raw JSON).
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Sat, 11 Jul 2026 13:36:01 -0400</pubDate>
+      <sparkle:version>32</sparkle:version>
+      <sparkle:shortVersionString>1.0.31</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v1.0.31/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="5cusi1sbyi1baGtAFtMETUmef90SPDhOqhMQZzreLQ1Wy/1sRLC4iHzmqf0sxrAHFbgprImnFZXhKwcqonkACw==" length="9116576" />
+    </item>
+    <item>
       <title>Version 1.0.30</title>
       <description><![CDATA[**RavanSpeak 1.0.30 — live API cost display**
 
