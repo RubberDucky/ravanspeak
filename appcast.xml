@@ -3,6 +3,23 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 1.0.33</title>
+      <description><![CDATA[**RavanSpeak 1.0.33 — much cheaper & faster transliteration**
+
+- **Model "thinking" disabled for translation/transliteration.** Gemini Flash was reasoning at length about phonetics on every batch — those thought tokens are billed as output and multiplied transliteration cost (~4×) and time. Subtitle work doesn't need it. (Falls back automatically if a model doesn't accept the option.)
+- **Smarter retries.** Lines that fail validation now retry in small batches; only twice-failed lines get individual requests. A format hiccup no longer means hundreds of slow single calls.
+- **Lenient reply parsing** — slightly off numbering (like "1 text" instead of "1⇥text") is accepted instead of triggering the retry pass at all.
+
+Tip: if a transliteration is mid-run right now, Cancel keeps the finished lines — re-run after updating and it resumes with the new fast path.
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Sat, 11 Jul 2026 14:01:24 -0400</pubDate>
+      <sparkle:version>34</sparkle:version>
+      <sparkle:shortVersionString>1.0.33</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v1.0.33/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="tm9YvwKViBUQ/5JbgjbF+HpHuvvOy5mCD5tlBVOQQzBA9w7LIcw2890n8h/Hxei+DEghaMhXxzXoAXjB3y74BA==" length="9133597" />
+    </item>
+    <item>
       <title>Version 1.0.32</title>
       <description><![CDATA[**RavanSpeak 1.0.32 — clearer job dialogs & model transparency**
 
