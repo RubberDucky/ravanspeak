@@ -3,6 +3,19 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 1.0.24</title>
+      <description><![CDATA[**RavanSpeak 1.0.24 — undo & redo in Reader editing**
+
+- **⌘Z undoes and ⇧⌘Z redoes** while editing a passage — typing coalesces into one step per pause; every insert, delete, drag-rearrange, and row deletion is its own step. Undo/redo buttons (↩︎ ↪︎) also live in the Edit header.
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Sat, 11 Jul 2026 11:25:40 -0400</pubDate>
+      <sparkle:version>25</sparkle:version>
+      <sparkle:shortVersionString>1.0.24</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v1.0.24/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="RjqWGEVl76SllX0Cu+phkgf4ooszemBF0kpbgWE+KVwB2fr9584O3CxzBlC3aec7TiE6NYJHWfrolivEeSbYCQ==" length="9038139" />
+    </item>
+    <item>
       <title>Version 1.0.23</title>
       <description><![CDATA[**RavanSpeak 1.0.23 — cards only**
 
