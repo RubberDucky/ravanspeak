@@ -3,6 +3,21 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 2.1.2</title>
+      <description><![CDATA[**RavanSpeak 2.1.2 — chunk overlap & a clearer Generate**
+
+- **Gemini transcription chunks now overlap by 15 seconds.** Sentences that straddle a chunk boundary are heard in full by the next chunk, which replaces the truncated take — deterministic ownership rules prevent doubled lines. (~+8% audio cost, a couple of cents per episode.)
+- **Hybrid polish chunks: 5 minutes** (down from 8).
+- **Generate is now a dropdown:** click it and choose the scope — **Whole video…** or **Just a section… (fix a time range)**. The section-fix entry inside the Generate dialog is now a proper button too.
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Sat, 11 Jul 2026 17:25:20 -0400</pubDate>
+      <sparkle:version>41</sparkle:version>
+      <sparkle:shortVersionString>2.1.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v2.1.2/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="+234qMehdpE1AWFFYTlG4DFVUVpvZcFc0+QdPw/Z7LBrV9STFwyp38gg45hvQ8AYSiyGH+t2vewQP/UsMIV1Dg==" length="9244956" />
+    </item>
+    <item>
       <title>Version 2.1.1</title>
       <description><![CDATA[**RavanSpeak 2.1.1 — tighter Gemini timestamps**
 
