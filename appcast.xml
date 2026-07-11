@@ -3,6 +3,21 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 1.0.29</title>
+      <description><![CDATA[**RavanSpeak 1.0.29 — video zoom fix, Gemini timeout & cost**
+
+- **The black-video bug is fixed at the root.** UI zoom's scale transform breaks macOS video layers — the editor now always renders at 100% (video plays at any zoom level); zoom still applies to the Library, Reader, Queue, and Settings.
+- **Gemini translation no longer times out.** The newest Pro models think for minutes on a batch; the request timeout is now 5 minutes.
+- **Cloud transcription is now several times cheaper and faster.** It uses the newest Gemini **Flash** (excellent for Persian audio) instead of Pro — a feature film drops from dollars to cents. Tip: if translation feels slow/pricey too, switch API quality to **Fast** in Settings.
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Sat, 11 Jul 2026 13:08:57 -0400</pubDate>
+      <sparkle:version>30</sparkle:version>
+      <sparkle:shortVersionString>1.0.29</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v1.0.29/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="DQHuUtMCcPsfi+YuTuVWP9OKQs1+X/wxi08zwhP5QKkypRIPMqm6oqv0EOaCzpTEuOabAHwLJpggz0/eo9DlDg==" length="9078494" />
+    </item>
+    <item>
       <title>Version 1.0.28</title>
       <description><![CDATA[**RavanSpeak 1.0.28 — playback diagnostics**
 
