@@ -3,6 +3,19 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 1.0.30</title>
+      <description><![CDATA[**RavanSpeak 1.0.30 — live API cost display**
+
+- **See what a job costs while it runs and when it finishes.** Cloud transcription shows a running figure ("Transcribing part 3 of 7… (≈ $0.09 so far)"), translation shows it per batch ("Translating… 250/712 lines · ≈ $0.04"), and the Done message shows the total ("Done — 712 lines. ≈ $0.24 · 1.2M tokens"). Token counts are exact from the API; the dollar figure is an estimate based on current Gemini/OpenAI pricing tiers.
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Sat, 11 Jul 2026 13:18:40 -0400</pubDate>
+      <sparkle:version>31</sparkle:version>
+      <sparkle:shortVersionString>1.0.30</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v1.0.30/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="KLNp3kcvBA11Sk4cbIN8j0owIIUSKPcU2f560eLN4zbJPh1mI4aMprAsSrdyPWw3/S5EGwdVu0ew2O1CwslpBg==" length="9081491" />
+    </item>
+    <item>
       <title>Version 1.0.29</title>
       <description><![CDATA[**RavanSpeak 1.0.29 — video zoom fix, Gemini timeout & cost**
 
