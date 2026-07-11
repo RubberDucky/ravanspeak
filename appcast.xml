@@ -3,6 +3,21 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 1.0.22</title>
+      <description><![CDATA[**RavanSpeak 1.0.22 — card-first editing**
+
+- **Edit the cards directly** — the cards are now the single source of truth. The Farsi sentence line in Edit mode is a read-only preview that rebuilds itself from the cards (the transliteration line used by exports rebuilds too). No more confusing two-way mapping.
+- **The English sentence stays editable** — it's a real translation, independent of the word cards.
+- **Add cards, not just delete** — every card has a small ＋ to insert a new card right after it, and each row ends with a dashed **Add card** tile. New cards start empty; ✕ still deletes.
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Sat, 11 Jul 2026 11:00:30 -0400</pubDate>
+      <sparkle:version>23</sparkle:version>
+      <sparkle:shortVersionString>1.0.22</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v1.0.22/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="7ScefevDmzBd90zPVXG3QVgkDye0uuKPDlTLGOhVRb9jJh/Mtgn6cPeDB2eArO0fbh8mIMbQNVOR8WJvTPGNCg==" length="9018006" />
+    </item>
+    <item>
       <title>Version 1.0.21</title>
       <description><![CDATA[**RavanSpeak 1.0.21 — Reader polish**
 
