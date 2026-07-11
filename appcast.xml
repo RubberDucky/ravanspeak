@@ -3,6 +3,20 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 1.0.32</title>
+      <description><![CDATA[**RavanSpeak 1.0.32 — clearer job dialogs & model transparency**
+
+- **No more "is it done?" confusion.** Finished jobs now show as a separate **"Previous job"** log card (✓ or ⚠) with the result, cost, tokens, and the exact model used — clearly separated from the controls for starting a new job. After a job, the buttons read **Done** and **Start new job**.
+- **See the actual model everywhere.** The engine pickers show "Model: gemini-flash-latest / gpt-4o / Qwen 3B · on-device"; live status says which model is translating; batch rows read "Translating English via gemini-flash-latest (1/2)…" and "Transcribing (Large v3)…".
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Sat, 11 Jul 2026 13:52:03 -0400</pubDate>
+      <sparkle:version>33</sparkle:version>
+      <sparkle:shortVersionString>1.0.32</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v1.0.32/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="jnWdiobFuWhJr8J0OURMghL6lz98nHye3G8vEdUG4W4j8XaqI65LTLjV+kQjDzIT+XzVZSdUKLj5EFDQ47eLAA==" length="9131758" />
+    </item>
+    <item>
       <title>Version 1.0.31</title>
       <description><![CDATA[**RavanSpeak 1.0.31 — resilient translation, resume, minimize to Queue**
 
