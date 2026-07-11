@@ -3,6 +3,22 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 1.0.25</title>
+      <description><![CDATA[**RavanSpeak 1.0.25 — Reader cards: colors, controls & drag**
+
+- **New cards show the right colors.** Placeholder text on empty cards followed the app's dark mode instead of the tile color (white-on-white on light tiles). Each card now renders for its own tile brightness — including custom tile colors.
+- **✕ / ＋ / ≡ are always visible** — white-on-black with a white ring, legible on any tile color.
+- **Drag to rearrange works in the reader too** — drag any card onto another to move it, or onto the row's empty space to send it to the end of that row. Saves immediately.
+- **Easier dragging in Edit mode** — grab anywhere on a card (not just the tiny ≡ handle).
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Sat, 11 Jul 2026 11:37:00 -0400</pubDate>
+      <sparkle:version>26</sparkle:version>
+      <sparkle:shortVersionString>1.0.25</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v1.0.25/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="xOCVTnOM2Pm6WSMsJe/Gixn57Uqx4dfbWR2Kb8aK1WMLzR+chCx8LBQd/pevwPjnsf3/J20UkPnv+BAmUpZOCw==" length="9055254" />
+    </item>
+    <item>
       <title>Version 1.0.24</title>
       <description><![CDATA[**RavanSpeak 1.0.24 — undo & redo in Reader editing**
 
