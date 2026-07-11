@@ -3,6 +3,21 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 1.0.20</title>
+      <description><![CDATA[**RavanSpeak 1.0.20 — Reader fixes**
+
+- **Custom colors now apply to the revealed text.** Previously the revealed layer (usually the transliteration) was always shown in the gold highlight, so changing its color appeared to do nothing. Your color now wins; without one, the gold highlight remains.
+- **Edit mode matches your card colors** — tiles and text in Edit use the same theme, tile colors, and text colors as the reader.
+- **Flip all is uniform** — one click flips every card face-up, another flips every card back, regardless of which ones you'd tapped individually.
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Sat, 11 Jul 2026 10:49:17 -0400</pubDate>
+      <sparkle:version>21</sparkle:version>
+      <sparkle:shortVersionString>1.0.20</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v1.0.20/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="fcBRm5my+VlnIMaHESdvjTC+kOST49bHc5fA+PRGM9krCm+a7O9yfjghFA4x74rszxsDppK3ANSnGpOZ/sETCw==" length="8993182" />
+    </item>
+    <item>
       <title>Version 1.0.19</title>
       <description><![CDATA[**RavanSpeak 1.0.19 — Reader: delete & tile colors**
 
