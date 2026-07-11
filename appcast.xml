@@ -3,6 +3,20 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 2.1.1</title>
+      <description><![CDATA[**RavanSpeak 2.1.1 — tighter Gemini timestamps**
+
+- **Gemini cloud transcription now uses 3-minute chunks** (down from 8). Gemini's timestamps drift the further it gets from the start of what it hears; every chunk boundary resets the clock, so shorter chunks mean noticeably more accurate timing. Cost is identical (audio bills per second regardless of slicing); a full episode takes about a minute longer.
+- The Hybrid engine's polish pass keeps 8-minute chunks — Whisper owns all timing there, and more context per request helps the word corrections.
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Sat, 11 Jul 2026 17:18:04 -0400</pubDate>
+      <sparkle:version>40</sparkle:version>
+      <sparkle:shortVersionString>2.1.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v2.1.1/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="r6BPoEVaKc+ZxEiGzlhKs71E/JB5wf2/njyhlQjZKWwPyWybg+740DE+R6Pha6xaxVAWgwCp7xm6MZTGM7/FBw==" length="9238325" />
+    </item>
+    <item>
       <title>Version 2.1.0</title>
       <description><![CDATA[**RavanSpeak 2.1 — Hybrid transcription & self-healing coverage**
 
