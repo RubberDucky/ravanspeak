@@ -3,6 +3,19 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 1.0.28</title>
+      <description><![CDATA[**RavanSpeak 1.0.28 — playback diagnostics**
+
+- **No more silent black frames.** If a video loads but can't play, the player now shows exactly what failed ("Playback failed: …") with a **Reload** button. If every video fails at once, the message points at the usual culprit: macOS's media services needing a restart (often after force-quitting apps mid-video-processing — which the Cancel fix in 1.0.27 makes unnecessary).
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Sat, 11 Jul 2026 12:58:17 -0400</pubDate>
+      <sparkle:version>29</sparkle:version>
+      <sparkle:shortVersionString>1.0.28</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v1.0.28/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="Ob5zGcuSnpkl1UrQ5QSFk3D3l0BSBSCiesuBJ4h7FvYihXrN2KUrhYGYteAoPcl28Orpy/wKK1NZqKeVl4MeAA==" length="9078048" />
+    </item>
+    <item>
       <title>Version 1.0.27</title>
       <description><![CDATA[**RavanSpeak 1.0.27 — Cancel works, Gemini transcription hardened**
 
