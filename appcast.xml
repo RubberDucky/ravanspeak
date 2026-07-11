@@ -3,6 +3,21 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 1.0.26</title>
+      <description><![CDATA[**RavanSpeak 1.0.26 — Gemini self-healing + Reader fixes**
+
+- **Gemini model errors fixed for good.** Google retired `gemini-2.5-pro` for newer API keys ("no longer available to new users"). The app no longer hardcodes model names — it asks Google which models YOUR key can use, picks the newest stable Pro (Best) / Flash (Fast), refreshes daily, and if a model is ever retired mid-run it automatically switches and retries. Applies to translation, transliteration, and cloud transcription.
+- **The sentence line under each row now follows the cards** — edit, delete, add, or rearrange cards and the row's sentence text (including the English line) rebuilds. Opening Edit and clicking Done refreshes every row.
+- **Empty cards no longer leave little bubbles** — cards left blank are removed when you click Done, and any previously saved empty bubbles are cleaned up at launch.
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Sat, 11 Jul 2026 12:11:07 -0400</pubDate>
+      <sparkle:version>27</sparkle:version>
+      <sparkle:shortVersionString>1.0.26</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v1.0.26/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="of4lnzvazodARZT8jdZlKYR/kwshR42BFCTIXan7lRhQiCxv4Z7BXP2h8rNuCVK5bwZTXxLz0/fKqXfRYaVuDw==" length="9063096" />
+    </item>
+    <item>
       <title>Version 1.0.25</title>
       <description><![CDATA[**RavanSpeak 1.0.25 — Reader cards: colors, controls & drag**
 
