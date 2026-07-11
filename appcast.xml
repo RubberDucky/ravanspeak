@@ -3,6 +3,19 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 1.0.34</title>
+      <description><![CDATA[**RavanSpeak 1.0.34 — batch menus organized by folder**
+
+- **The Batch and Bulk-export video lists are now grouped by folder.** Click a folder's checkbox to select or unselect its entire contents in one go (✓ all, ▬ partial, ▢ none), and use the chevron to expand or collapse it — with a "3/10" selection count visible while collapsed. Top-level videos are listed below the folders; All/None and the per-video badges still work.
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Sat, 11 Jul 2026 14:08:52 -0400</pubDate>
+      <sparkle:version>35</sparkle:version>
+      <sparkle:shortVersionString>1.0.34</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v1.0.34/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="mqTYmHPqPLRJkgH7JD+T1aFEDwl5GyKhFEMjNcYZkf5xbTRqaOlamJJOechCtw0CZGe3ywqyZV5Tw9qu+w3hAQ==" length="9147473" />
+    </item>
+    <item>
       <title>Version 1.0.33</title>
       <description><![CDATA[**RavanSpeak 1.0.33 — much cheaper & faster transliteration**
 
