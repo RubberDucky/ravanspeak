@@ -3,6 +3,22 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 1.0.23</title>
+      <description><![CDATA[**RavanSpeak 1.0.23 — cards only**
+
+- **The sentence lines are gone from Edit mode** — you edit the cards, period. (Headings keep their text fields; the sentence text used for speech/export rebuilds from the cards automatically.)
+- **Insert cards anywhere** — right-click a card ▸ *Insert card before* / *Insert card after* / *Delete card*. The corner ＋ (insert after) and the dashed *Add card* tile remain.
+- **Drag to rearrange** — drag a card's ≡ handle onto another card (or onto *Add card*) to reorder, even across rows.
+- **New cards now match your colors** — placeholder text on empty cards was following the app's dark mode and showed white-on-white on light tiles; it now uses your card colors.
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Sat, 11 Jul 2026 11:20:16 -0400</pubDate>
+      <sparkle:version>24</sparkle:version>
+      <sparkle:shortVersionString>1.0.23</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v1.0.23/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="NBvT+cIYNobLLODOAxCf7T/oDjYOYFyjvWixDIqhyybIvgsXYKUXSQXx41YTK5lW2kRZtxX+7i6Fc8ge1a24Dg==" length="9028124" />
+    </item>
+    <item>
       <title>Version 1.0.22</title>
       <description><![CDATA[**RavanSpeak 1.0.22 — card-first editing**
 
