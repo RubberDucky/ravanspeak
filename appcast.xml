@@ -3,6 +3,21 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 2.1.0</title>
+      <description><![CDATA[**RavanSpeak 2.1 — Hybrid transcription & self-healing coverage**
+
+- **New: Hybrid engine (Whisper + Gemini) — best quality.** Whisper drafts locally (guaranteed coverage, precise word-level timing), then Gemini Flash listens to the audio alongside the draft and corrects only the words — misheard terms, names, spelling, colloquial Farsi. Timing never changes; a part whose correction can't be applied keeps its Whisper draft, so the result is never worse than Whisper alone. Costs about the same as Gemini cloud (~cents per episode).
+- **Coverage watchdog for Gemini cloud.** Missing stretches (truncated replies, skipped speech) are now detected per chunk — checked against the audio's actual loudness so real silences are left alone — and re-asked automatically. The job log reports repairs ("2 gaps repaired"). The 45-minute-mark gap class of bug fixes itself now.
+- Pick the engine in Generate ▸ Transcribe: On-device (Whisper) · Gemini cloud · **Hybrid — best**.
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Sat, 11 Jul 2026 16:18:22 -0400</pubDate>
+      <sparkle:version>39</sparkle:version>
+      <sparkle:shortVersionString>2.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v2.1.0/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="r7X8GU9o3nIRzkyqeFnBIh4O62BZQ5w5tFEF7Os0ML1R7GMW4ri7KzALu3N6CSMSTar7ZVce+bhjuJzfZB5gBw==" length="9238169" />
+    </item>
+    <item>
       <title>Version 2.0.1</title>
       <description><![CDATA[**RavanSpeak 2.0.1 — Fix a section: transcribe AND translate**
 
