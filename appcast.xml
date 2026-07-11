@@ -3,6 +3,21 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 1.0.21</title>
+      <description><![CDATA[**RavanSpeak 1.0.21 — Reader polish**
+
+- **Sentence lines and cards are now linked in Edit mode.** Type in the Farsi line and the cards re-split live (new words get empty tiles to fill); type in the Translit line and each card's transliteration updates; edit or delete a card and the sentence lines rebuild. The English sentence stays independent — it's a real translation, not word-by-word.
+- **Delete cards right in the reader** — hover a card and click the ✕ (right-click ▸ *Delete word* still works too).
+- **Punctuation sticks to its word.** Commas, periods, «» and friends no longer appear as their own cards — new passages are built that way and existing passages are cleaned up automatically.
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Sat, 11 Jul 2026 10:55:48 -0400</pubDate>
+      <sparkle:version>22</sparkle:version>
+      <sparkle:shortVersionString>1.0.21</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v1.0.21/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="p/HcSqG5LCJC6fFaye/5R1vBcKuP3LantWyIg+Wkn7vlW/3XSphKWQ/9ekVXjwRZeL3xhgfxltYN0L7DObf+DA==" length="9004702" />
+    </item>
+    <item>
       <title>Version 1.0.20</title>
       <description><![CDATA[**RavanSpeak 1.0.20 — Reader fixes**
 
