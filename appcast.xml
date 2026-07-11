@@ -3,6 +3,26 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 2.0.0</title>
+      <description><![CDATA[**RavanSpeak 2.0 — one Generate flow**
+
+The editor's workflow is rebuilt around a single idea: one place to make things.
+
+- **One "Generate" button** replaces the separate Transcribe and Translate dialogs. Pick everything in one sheet — (re-)transcription (Whisper or Gemini cloud), any number of translations, AND the Farsi transliteration — and run it all in one shot, in order, with one progress bar, live cost, Minimize-to-Queue, cancel that keeps finished work, and resume on re-run.
+- **A cleaner action bar:** Generate (primary) · Import · Export · Style — consistent buttons, consistent names. "Fix a section…" (re-transcribe a time range) lives inside Generate.
+- Fresh videos default to *transcribe + English*; videos with existing tracks preselect what they already have, so re-running fills gaps instead of redoing work.
+- Everything from 1.0.35 is here: subtitle versions, folder-grouped batch, cost display, self-healing Gemini models.
+
+Rollback: version 1.0.35 remains downloadable from the releases page if you ever need it.
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Sat, 11 Jul 2026 14:30:25 -0400</pubDate>
+      <sparkle:version>37</sparkle:version>
+      <sparkle:shortVersionString>2.0.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v2.0.0/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="D1NLowVmKcGWY4xq6AKMDn5hFGkjrdH3p5jwAWBu8y0JcE6d14MdPc5Qg5lzQ+OoIx8fYLD1aS26vC06Kwl5AQ==" length="9193656" />
+    </item>
+    <item>
       <title>Version 1.0.35</title>
       <description><![CDATA[**RavanSpeak 1.0.35 — subtitle versions**
 
