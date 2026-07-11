@@ -3,6 +3,21 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 1.0.35</title>
+      <description><![CDATA[**RavanSpeak 1.0.35 — subtitle versions**
+
+- **Duplicate a video's subtitles into independent versions and toggle between them.** The new version menu (⧉, next to the video's name in the editor) lets you duplicate the current version — subtitles AND translations — rename it, delete it, and switch instantly. Compare Whisper vs Gemini, or keep a hand-edited copy, without anything overwriting anything.
+- Everything follows the active version automatically: exports, burn-in, translation, batch jobs, bulk export. Open editors and running jobs are pinned to the version they started on, so switching mid-job is safe.
+- Videos with multiple versions show a "2 versions" badge in the Library. Existing libraries migrate seamlessly (your current subtitles become the "Original" version).
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Sat, 11 Jul 2026 14:18:36 -0400</pubDate>
+      <sparkle:version>36</sparkle:version>
+      <sparkle:shortVersionString>1.0.35</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v1.0.35/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="KEnoEBUJOT80cCwmxSSrG+Z8VsaFA2BYRtSgkbg4MxXGygOdp166aBDUIC6U1/VTZytzmEMJ36wdY6eiA5L0DA==" length="9179968" />
+    </item>
+    <item>
       <title>Version 1.0.34</title>
       <description><![CDATA[**RavanSpeak 1.0.34 — batch menus organized by folder**
 
