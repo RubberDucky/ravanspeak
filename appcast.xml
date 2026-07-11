@@ -3,6 +3,20 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 2.0.1</title>
+      <description><![CDATA[**RavanSpeak 2.0.1 — Fix a section: transcribe AND translate**
+
+- **"Fix a section" now repairs everything in one run.** Pick a time range, optionally re-transcribe it, and (re-)translate just that range into any languages plus the Farsi transliteration — in one shot. Or skip transcription and only re-translate the section. Only lines inside the range are touched; section translations overwrite those lines on the chosen tracks (the rest of each track is untouched).
+- Your existing tracks are preselected, so fixing a bad 3-minute stretch (like a gap left by an interrupted transcription) is: Generate ▸ Fix a section ▸ set the range ▸ Fix.
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Sat, 11 Jul 2026 15:57:40 -0400</pubDate>
+      <sparkle:version>38</sparkle:version>
+      <sparkle:shortVersionString>2.0.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v2.0.1/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="M3Ju1LCcvvMt8KsdeL2lxWu4ggbBEh8yrLg1DqWEoi6Kop3+Mwio+V6Q/yjSvmMOlpqILnC3CP151/3ptE4ZCA==" length="9212427" />
+    </item>
+    <item>
       <title>Version 2.0.0</title>
       <description><![CDATA[**RavanSpeak 2.0 — one Generate flow**
 
