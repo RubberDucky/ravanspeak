@@ -3,6 +3,20 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 1.0.27</title>
+      <description><![CDATA[**RavanSpeak 1.0.27 — Cancel works, Gemini transcription hardened**
+
+- **Cancel now cancels immediately.** Cancelling a transcription or translation used to leave the app stuck (in-flight network requests and audio processing kept running — up to minutes for Gemini). Everything aborts instantly now: cloud requests, audio exports, the loudness pre-scan, and translation calls. No more force-quitting.
+- **"Gemini returned an unexpected format" fixed.** Replies are now pinned to a strict JSON schema, wrapped or cut-off replies are repaired automatically, chunks are shorter (8 min), and a bad chunk retries once on its own.
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Sat, 11 Jul 2026 12:27:13 -0400</pubDate>
+      <sparkle:version>28</sparkle:version>
+      <sparkle:shortVersionString>1.0.27</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v1.0.27/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="Q6EOq8gS2LQp1rOI5EHGPCMidvJnXk29u74XgxE7YdLdKcNZxXs1dNVkCSjmksPunYwqDiRYb7/Nbqo+Z6MeDw==" length="9070680" />
+    </item>
+    <item>
       <title>Version 1.0.26</title>
       <description><![CDATA[**RavanSpeak 1.0.26 — Gemini self-healing + Reader fixes**
 
