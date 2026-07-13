@@ -3,6 +3,19 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 2.1.3</title>
+      <description><![CDATA[**RavanSpeak 2.1.3 — section fixes no longer rewrite the Persian by surprise**
+
+- **"Fix a section" no longer re-transcribes by default.** Re-transcription was pre-checked, so redoing "just the English" or "just the transliteration" for a range silently rewrote the Persian too. Now the toggle follows the range: a range that already has Persian lines defaults to translation-only (Persian kept); an empty range (missing subtitles) defaults to re-transcribe. The dialog states plainly, in both states, exactly what will and won't be touched.
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Mon, 13 Jul 2026 15:49:54 -0400</pubDate>
+      <sparkle:version>42</sparkle:version>
+      <sparkle:shortVersionString>2.1.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v2.1.3/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="OmVcitQfJ/sqRYs38oWm11YXV7oNY3BYDvd7qyuZegkjzQuSrg1b9KRA4XYDXWQU2ecgkbTvYhPC8VBMEoQfAg==" length="9251392" />
+    </item>
+    <item>
       <title>Version 2.1.2</title>
       <description><![CDATA[**RavanSpeak 2.1.2 — chunk overlap & a clearer Generate**
 
