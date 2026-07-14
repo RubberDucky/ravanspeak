@@ -3,6 +3,21 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 2.3.0</title>
+      <description><![CDATA[**RavanSpeak 2.3 — version workflow & side-by-side comparison**
+
+- **Re-transcribing now asks first.** When a video already has subtitles, Generate offers: **keep the current result as a separate version, then transcribe** (default) or overwrite in place. The kept version is auto-named ("Original — before ElevenLabs (Jul 14)") and lives in the ⧉ version menu.
+- **Set the default version from the Library.** Right-click a video ▸ **Default subtitle version** — the checked version is what opens.
+- **Compare versions side by side.** ⧉ menu ▸ **Compare versions…**: pick any two versions and a track; lines are time-aligned even when segmentation differs; differences are highlighted (row tint + the changed words themselves in bold orange; blue/purple for lines only in one version) with an "Only differences" filter; and a **built-in mini player** — click any row to hear that exact moment and judge which version got it right.
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Tue, 14 Jul 2026 06:11:30 -0400</pubDate>
+      <sparkle:version>45</sparkle:version>
+      <sparkle:shortVersionString>2.3.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v2.3.0/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="dGaOQAhrZ6yqrQPiDB7gFZQaODcPw2hnJHCLPcdhLn9cdD06/6ST5ZA6zxH12bRTzcCQvhleimHf5EcH7xtbCg==" length="9349621" />
+    </item>
+    <item>
       <title>Version 2.2.0</title>
       <description><![CDATA[**RavanSpeak 2.2 — ElevenLabs Scribe & Gemini cost control**
 
