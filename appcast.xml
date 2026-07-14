@@ -3,6 +3,24 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 2.3.4</title>
+      <description><![CDATA[**RavanSpeak 2.3.4 — Manage subtitles**
+
+- **New "Manage subtitles" view** — the full picture of a video's subtitles, one card per version:
+  - Tracks clustered by type — **Original film script / Translations / Transliteration** — each with a ✓, language, and line count.
+  - Both dates: created/generated or imported, and last modified.
+  - The data file's name and folder on disk, with **Show in Finder**.
+  - Per-version actions: **Make default** (what opens from the Library), Rename, Duplicate, Delete.
+- Open it from the editor's ⧉ version menu or by right-clicking any video in the Library — works for every video, even with a single version.
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Tue, 14 Jul 2026 13:22:45 -0400</pubDate>
+      <sparkle:version>49</sparkle:version>
+      <sparkle:shortVersionString>2.3.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v2.3.4/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="3NSJ/JgHhxD3FcXG1Q/0GFKxhDbPqN+Fi6/MbNmSI61TkndDOa4Gtg3hRi/4OzmMMf8bn8ktEKFlEzfE1XaACQ==" length="9419081" />
+    </item>
+    <item>
       <title>Version 2.3.3</title>
       <description><![CDATA[**RavanSpeak 2.3.3 — the Import dialog, done right**
 
