@@ -3,6 +3,21 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 2.2.0</title>
+      <description><![CDATA[**RavanSpeak 2.2 — ElevenLabs Scribe & Gemini cost control**
+
+- **New transcription engine: ElevenLabs Scribe.** Flat **$0.22 per hour of audio** (a TV episode ≈ 17¢), Persian in ElevenLabs' top accuracy tier (benchmarked ahead of Whisper and Gemini), word-level timing, and the whole file uploads in ONE request — no chunks, no boundary seams. Add your ElevenLabs key in Settings ▸ Models & API keys, then pick "ElevenLabs" in Generate ▸ Transcribe.
+- **Gemini cost tier.** New Settings choice: **Newest Flash (best quality)** or **Gemini 2.5 Flash (~6× cheaper)** — applies to Gemini transcription, the Hybrid polish pass, and translation/transliteration. 2.5 Flash remains very strong for Persian at $0.30/M in, $2.50/M out.
+- Cost lines handle flat-priced services: "≈ $0.17 · 45 min audio · scribe_v2".
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Tue, 14 Jul 2026 06:03:57 -0400</pubDate>
+      <sparkle:version>44</sparkle:version>
+      <sparkle:shortVersionString>2.2.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v2.2.0/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="bbBjqpf4mR8s2ZyW4x+9hlhHnRpEBZT9ye9kIScW/g0He5h5yMO35i66HdkLI0162XOOoW3VyByTCvdaVPucBg==" length="9282315" />
+    </item>
+    <item>
       <title>Version 2.1.4</title>
       <description><![CDATA[**RavanSpeak 2.1.4 — hybrid gap filling & honest costs**
 
