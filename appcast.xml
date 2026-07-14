@@ -3,6 +3,22 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 2.1.4</title>
+      <description><![CDATA[**RavanSpeak 2.1.4 — hybrid gap filling & honest costs**
+
+- **Hybrid transcription now fills its own gaps.** Whisper mutes music/singing, so dialogue over the intro/theme could come out empty (e.g. a missing 1:01–2:18) — and the polish stage could only fix existing lines. Hybrid now runs a third pass: any audible stretch still without subtitles is transcribed by Gemini directly. The log reports it ("2 gaps filled").
+- **Cost estimates match reality now.** The price table was written for Gemini 2.5 Flash; the newest Flash costs ~6× more ($1.50/M in, $9/M out — thinking billed as output), so the app showed $0.15 while Google charged dollars. Rates are now per-version (unknown models assume the TOP tier — it over-estimates rather than surprises you).
+- **Actual costs also drop:** model "thinking" is now disabled on transcription and polish calls too (it was only off for translation) — thought tokens were burning money at the output rate with no transcription benefit.
+- Cost readouts are auditable: "≈ $0.84 · 900K in + 60K out (38K thinking)".
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Tue, 14 Jul 2026 05:20:21 -0400</pubDate>
+      <sparkle:version>43</sparkle:version>
+      <sparkle:shortVersionString>2.1.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v2.1.4/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="/btlH620UqsVCpP2y+jj4M84EjTURM9t2tKEwfOBXrMFMeUPRqecC1Agmz/fgLrPWq81B4TLkLkxhCTusbDlAA==" length="9256498" />
+    </item>
+    <item>
       <title>Version 2.1.3</title>
       <description><![CDATA[**RavanSpeak 2.1.3 — section fixes no longer rewrite the Persian by surprise**
 
