@@ -3,6 +3,20 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 2.3.1</title>
+      <description><![CDATA[**RavanSpeak 2.3.1 — import versioning & version timestamps**
+
+- **Importing subtitles now respects versions.** Destructive imports ("Replace everything" / "Overwrite a track") ask the same question as re-transcribing: keep the current subtitles as a separate version first (default) or change in place. Adding a NEW track never destroys anything, so it imports directly.
+- **Every version now shows when it was created/imported and last edited.** The ⧉ version menu displays the open version's full info at the top ("Created Jul 14, 10:32 · edited Jul 14, 12:05") and each row carries its last-touched stamp, so similar versions are easy to tell apart. Last-edit updates automatically whenever a version is changed.
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Tue, 14 Jul 2026 06:35:51 -0400</pubDate>
+      <sparkle:version>46</sparkle:version>
+      <sparkle:shortVersionString>2.3.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v2.3.1/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="FeZuWEbzvme/so8lsGQyrd/2dOe4NQXFlgx54/dJdDayMFRH7F2+fCEUq3LqxwvHAF/ajTOfs7nYZEd/zO5OBQ==" length="9358780" />
+    </item>
+    <item>
       <title>Version 2.3.0</title>
       <description><![CDATA[**RavanSpeak 2.3 — version workflow & side-by-side comparison**
 
