@@ -3,6 +3,19 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 2.3.2</title>
+      <description><![CDATA[**RavanSpeak 2.3.2 — cleaner Import dialog**
+
+- **Import is now two simple stages.** First a dropdown for what to import the file as — new transliteration track, new translation track, replace all subtitles, or fill an existing track (with a second dropdown to pick which one). Then, for destructive choices, a single toggle: **"Keep the current subtitles as a separate version first"** (on by default). No more wall of radio options.
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Tue, 14 Jul 2026 09:02:32 -0400</pubDate>
+      <sparkle:version>47</sparkle:version>
+      <sparkle:shortVersionString>2.3.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v2.3.2/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="FShE+HVD77wRmaKiv9VgDMoowjxh9V6xVI4bxOfSRwGomS4b7+spztWpyxJ0KrJ6ZooTXCGMYypVo/5SZtjBCw==" length="9362892" />
+    </item>
+    <item>
       <title>Version 2.3.1</title>
       <description><![CDATA[**RavanSpeak 2.3.1 — import versioning & version timestamps**
 
