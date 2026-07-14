@@ -3,6 +3,20 @@
   <channel>
     <title>RavanSpeak</title>
     <item>
+      <title>Version 2.3.3</title>
+      <description><![CDATA[**RavanSpeak 2.3.3 — the Import dialog, done right**
+
+- **Two clear stages.** Stage 1: destination — import as a **new version** (default; the current version stays untouched and the import becomes active) or **overwrite the current version**. Stage 2: which track the file is — **Farsi subtitles** (uses the file's lines and timing), **Translation** (pick language), or **Transliteration** — the latter two matched to your current timing and created if missing.
+- The redundant "fill an existing track" option is gone (creating and filling a track were the same operation). New-version imports are auto-named "Imported Jul 14, 09:12" and renameable in the ⧉ menu.
+
+Apple Silicon · macOS 14+]]></description>
+      <pubDate>Tue, 14 Jul 2026 12:42:50 -0400</pubDate>
+      <sparkle:version>48</sparkle:version>
+      <sparkle:shortVersionString>2.3.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/RubberDucky/ravanspeak/releases/download/v2.3.3/RavanSpeak.zip" type="application/octet-stream" sparkle:edSignature="YlSc1N4jutYZ3/Hl/me23sAZkNMrxv2dhXXnecB/6j4ldM+M6zqpr7g0PbWeAts8TmemhtMyTygGGEYqYbXgAg==" length="9363792" />
+    </item>
+    <item>
       <title>Version 2.3.2</title>
       <description><![CDATA[**RavanSpeak 2.3.2 — cleaner Import dialog**
 
